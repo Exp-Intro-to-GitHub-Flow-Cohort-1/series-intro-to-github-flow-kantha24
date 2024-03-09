@@ -55,7 +55,7 @@ jobs:
           fetch-depth: 0 # Let's get all the branches.
 
       # In README.md, switch step 2 for step 3.
-      - name: Update to step 3
+      - name: Update to step 2
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GLOBAL_CLASSROOM_ORG_TOKEN }}
